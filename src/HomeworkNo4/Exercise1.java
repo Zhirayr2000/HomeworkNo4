@@ -13,6 +13,6 @@ public class Exercise1 {
             sum += i;
             i+=2;
         }
-        System.out.println("Average = "+sum/(n/2));
+        System.out.println("Average = "+sum/(n/2!=0?(n/2):1));
     }
 }

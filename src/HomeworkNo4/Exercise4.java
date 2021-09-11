@@ -7,6 +7,6 @@ public class Exercise4 {
         Scanner in=new Scanner(System.in);
         int n=in.nextInt();
         for(int i=1;i<=n;i++)
-            System.out.print(Math.pow(i,3)+" ");
+            System.out.print(i*i*i+" ");
     }
 }
